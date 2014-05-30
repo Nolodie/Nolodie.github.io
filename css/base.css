@@ -1,0 +1,93 @@
+/*
+
+base css template
+Heberer, Anna
+22.5.2014
+Last edited: 30.5.2014
+
+*/
+
+body {
+  background-color: #FFFFFF;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#navBar {
+  height: 12em;
+  width: ;
+  background: #FFFFFF;
+}
+
+#navBar ul {
+  position: fixed;
+  top: 2em;
+  right: 2.5em;
+
+  padding-bottom: 0.5em;
+  border-bottom: 0.1em solid #000;
+}
+
+#navBar li {
+  display: block;
+  float: left;
+}
+
+#navBar li a {
+  margin: 1.2em;
+  
+  font-size: 1.1em;
+  color: #000;
+  text-decoration: none;
+}
+
+#navBar #subul {
+  position: fixed;
+  top: 5.5em;
+  right: 0em;
+  border-bottom: 0.1em solid #AAA;
+}
+
+#navBar #subul li {
+  height: 2em;
+  width: 15em;
+  border-left: 0.2em solid #AAA;
+  display: inline-block;
+  margin-top: 0.3em;
+}
+
+#navBar #subul li a {
+  color: #AAA;
+}
+
+#navBar #subul li:nth-child(1):hover a{ color: #A9FF0A; }
+#navBar #subul li:nth-child(2):hover a{ color: #21DEFF; }
+#navBar #subul li:nth-child(3):hover a{ color: #FF0062; }
+#navBar #subul li:nth-child(4):hover a{ color: #FFF607; }
+#navBar #subul li:nth-child(5):hover a{ color: #9511D9; }
+#navBar #subul li:nth-child(6):hover a{ color: #FF8105; }
+
+#haupt {
+  margin: 1em;
+}
+
+#uSchrift {
+  text-align: center;
+}
+
+.dc {
+  height:1.75em;
+  width:1.75em;
+  border-radius: 1em;
+  display: inline-block;
+}
+
+h1 {
+  padding: 0.5em;
+  display: inline;
+}
+
+p {
+  line-height: 2em;
+  letter-spacing 0.1em;
+  color: #222;
+}
