@@ -1,0 +1,38 @@
+/*
+
+main css template
+Heberer,Anna
+24.1.2015
+css
+
+*/
+
+body {
+  font-family: Impact, Chacoal, sans-serif;
+  border: 3px solid yellow;
+}
+
+header {
+    border: 1px solid blue;
+}
+
+nav {
+  border: 1px solid black;
+}
+
+nav:hover {
+}
+
+footer {
+  border: 1px solid green;
+}
+
+h4 {
+}
+
+.content {
+  border: 1px solid pink;
+}
+
+h1 {
+}
